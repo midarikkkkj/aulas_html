@@ -1,0 +1,19 @@
+* {
+    text-decoration: underline;
+}
+
+p {
+    color: rebeccapurple
+}
+
+body {
+    background-image: url(ada.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+table, th, td {
+    border: 1px solid purple;
+    border-collapse: collapse;
+}
