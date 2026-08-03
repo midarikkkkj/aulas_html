@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Griffy&display=swap');
 * {
     text-decoration: underline;
+    font-family: "Griffy" , sans-serif;
 }
 
 p {
@@ -16,4 +18,9 @@ body {
 table, th, td {
     border: 1px solid purple;
     border-collapse: collapse;
+    margin: 50px
+
 }
+ td {
+    padding: 10px ;
+ }
