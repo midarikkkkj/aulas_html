@@ -2,6 +2,9 @@
 * {
     text-decoration: underline;
     font-family: "Griffy" , sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 p {
@@ -24,3 +27,17 @@ table, th, td {
  td {
     padding: 10px ;
  }
+
+nav{
+    background-color: rgb(252, 170, 62);
+    padding: 1rem;
+    position: sticky;
+    top: 0;
+}
+
+#img-ada {
+    opacity: 0.5;
+}
+#img-ada:hover {
+    opacity:1; 
+}
