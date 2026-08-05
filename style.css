@@ -16,6 +16,12 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
+
+    display: grid;
+    grid-template-columns: 
+    'topo topo topo topo'
+    'principal principal principal lateral'
+    'rodape rodape rodape rodape';
 }
 
 table, th, td {
@@ -40,4 +46,17 @@ nav{
 }
 #img-ada:hover {
     opacity:1; 
+}
+
+.cacecalho, .rodape{
+    background-color: aquamarine;
+    color: blueviolet;
+}
+
+.lateral {
+    background-color: antiquewhite;
+}
+
+.principal {
+background-color: bisque;
 }
